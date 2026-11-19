@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jashan Rana | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>Jashan<span>.</span></h2>
+  <button id="menuToggle" aria-label="Open menu">☰</button>
+  <ul id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-content reveal">
+    <div class="hero-text">
+      <p class="subtitle">WELCOME TO MY WORLD</p>
+      <h1>Hello, I'm <span>Jashan Rana</span></h1>
+      <h2>I'm a <span id="typing"></span></h2>
+      <p>From beautiful Himachal Pradesh, India.
+      Passionate about programming and web development.</p>
+      <a href="#projects" class="btn">Explore My Work ↗</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+
+    <div class="photo-box">
+      <div class="photo-ring">
+        <img src="images/jashan.jpg" alt="Jashan Rana">
+      </div>
+      <div class="tag">💻 Developer</div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <p class="subtitle">GET TO KNOW ME</p>
+  <h2>About <span>Me</span></h2>
+  <div class="content-card">
+    <p>Hello! I am Jashan Rana, a BCA student from Himachal Pradesh, India.</p>
+    <p>I am interested in technology, programming, web development
+    and creating innovative digital solutions.</p>
+    <p>My goal is to become a skilled software developer.</p>
+  </div>
+</section>
+
+<section id="education" class="reveal">
+  <p class="subtitle">MY LEARNING JOURNEY</p>
+  <h2>My <span>Education</span></h2>
+  <div class="content-card">
+    <h3>🎓 Bachelor of Computer Applications</h3>
+    <p>Currently pursuing BCA</p>
+    <p>Himachal Pradesh, India</p>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <p class="subtitle">WHAT I KNOW</p>
+  <h2>My <span>Skills</span></h2>
+  <div class="grid">
+    <div class="card">🌐 HTML</div>
+    <div class="card">🎨 CSS</div>
+    <div class="card">⚡ JavaScript</div>
+    <div class="card">🐍 Python</div>
+    <div class="card">💻 C / C++</div>
+    <div class="card">☕ Java</div>
+    <div class="card">🗄️ MySQL</div>
+    <div class="card">🔧 Git & GitHub</div>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <p class="subtitle">MY WORK</p>
+  <h2>My <span>Projects</span></h2>
+  <div class="grid" id="projectsGrid">
+    Loading projects...
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <p class="subtitle">LET'S CONNECT</p>
+  <h2>Contact <span>Me</span></h2>
+  <div class="contact-card">
+    <p>📍 Himachal Pradesh, India</p>
+    <p>📧 your-email@example.com</p>
+    <form id="contactForm">
+      <input name="name" placeholder="Your Name"
+      minlength="2" maxlength="80" required>
+      <input name="email" type="email"
+      placeholder="Your Email" required maxlength="254">
+      <textarea name="message" placeholder="Your Message"
+      minlength="5" maxlength="3000" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+      <p id="formStatus" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Jashan Rana | All Rights Reserved</p>
+  <a href="#home">Back to Top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
